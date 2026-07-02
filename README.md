@@ -43,7 +43,7 @@ The images below show the running VMs and their assigned IP configurations in th
 
 ### 2. External Access Validation
 Connecting to the `front-vm` securely via Native RDP using its Public IP.
-![Internal Connectivity Proof](remote-contactScreenshot%202026-07-02%20140224.png)
+![External RDP Connection](contact-VM-frontendScreenshot%202026-07-02%20135519.png)
 
 ### 3. Internal Connectivity Validation (The Ultimate Proof)
 To prove that the Virtual Network correctly routes traffic between the subnets, an RDP connection was successfully established **from within** the `front-vm` directly to the `back-vm` using its private IP (`172.16.0.4`) and the local administrator account (`adminkawas`).
