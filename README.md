@@ -51,6 +51,12 @@ To prove that the Virtual Network correctly routes traffic between the subnets, 
 *(The screenshot below demonstrates the internal RDP prompt originating from the front-end VM)*
 ![Internal Connectivity Proof](remote-contactScreenshot%202026-07-02%20140224.png)
 
+### 💡 Key Takeaway: VNet Default Routing
+By deploying this architecture, we successfully demonstrated a core Azure networking concept: **Virtual Machines located in different subnets within the same Virtual Network (VNet) can communicate with each other by default.** 
+
+Even though `front-vm` and `back-vm` are isolated in their own respective subnets (`front-subnet` and `back-subnet`), the overarching VNet automatically routes the internal traffic between them using their private IP addresses, ensuring seamless and secure backend communication.
+
+
 ## 🛠️ Skills Demonstrated
 * Cloud Infrastructure Provisioning (Microsoft Azure)
 * Azure Virtual Networks (VNets) & Subnetting
