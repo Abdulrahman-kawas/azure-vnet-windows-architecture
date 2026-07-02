@@ -49,7 +49,7 @@ Connecting to the `front-vm` securely via Native RDP using its Public IP.
 To prove that the Virtual Network correctly routes traffic between the subnets, an RDP connection was successfully established **from within** the `front-vm` directly to the `back-vm` using its private IP (`172.16.0.4`) and the local administrator account (`adminkawas`).
 
 *(The screenshot below demonstrates the internal RDP prompt originating from the front-end VM)*
-![Internal Connectivity Proof](remote-contactScreenshot%202026-07-02%20140224.jpg)
+![Internal Connectivity Proof](remote-contactScreenshot%202026-07-02%20140224.png)
 
 ## 🛠️ Skills Demonstrated
 * Cloud Infrastructure Provisioning (Microsoft Azure)
